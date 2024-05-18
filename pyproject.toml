@@ -6,6 +6,8 @@ authors = ["Joe Gilbert <joegilbertdev@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
 black = "^24.4.2"
 
 [tool.poetry.dev-dependencies]

@@ -14,7 +14,18 @@ class ThunderWyrm(Codemon):
         armour: int = 3,
         intelligence: int = 7,
         speed: int = 7,
+        is_starter: bool = True,
+        can_upgrade: bool = True,
     ):
         super().__init__(
-            own_species, name, element, health, strength, armour, intelligence, speed
+            own_species,
+            name,
+            element,
+            health,
+            strength,
+            armour,
+            intelligence,
+            speed,
+            is_starter,
+            can_upgrade,
         )

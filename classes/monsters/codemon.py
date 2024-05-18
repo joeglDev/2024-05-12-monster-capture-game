@@ -16,6 +16,8 @@ class Codemon:
         armour: int = 100,
         intelligence: int = 100,
         speed: int = 100,
+        is_starter: bool = False,
+        can_upgrade: bool = False,
     ):
         self.own_species = own_species
         self.name = name
@@ -26,6 +28,8 @@ class Codemon:
         self.intelligence = intelligence
         self.speed = speed
         self.current_health = health
+        self.is_starter = is_starter
+        self.can_upgrade = can_upgrade
 
     def print_attributes(self):
         properties = vars(self)
